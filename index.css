@@ -10,11 +10,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
-    linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
-    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
-    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
+  background: #019FE9;
 }
 
 h2 {
@@ -28,10 +24,10 @@ nav {
 }
 
 .cool > li > a {
-  color: yellow;
+  color: #3B5998;
   text-decoration: none;
   font-size: 20px;
-  background: rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.5);
   padding: 10px 20px;
   display: inline-block;
   margin: 20px;
@@ -125,7 +121,7 @@ nav ul {
 
 .dropdown a {
   text-decoration: none;
-  color: #ffc600;
+  color: #3B5998;
 }
 
 a.button {
